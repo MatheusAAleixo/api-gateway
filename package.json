@@ -1,0 +1,15 @@
+{
+  "name": "@acme/api-gateway",
+  "version": "1.0.0",
+  "description": "Gateway que unifica todas as rotas públicas",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "@acme/auth-service": "1.0.0",
+    "@acme/payment-service": "1.0.0"
+  }
+}
